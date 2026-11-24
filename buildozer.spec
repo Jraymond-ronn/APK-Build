@@ -9,6 +9,7 @@ requirements = python3,pygame
 orientation = landscape
 fullscreen = 1
 android.archs = arm64-v8a
+android.ndk = 25b
 icon.filename = %(source.dir)s/icon.png
 presplash.filename = %(source.dir)s/presplash.png
 

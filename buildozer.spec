@@ -1,0 +1,17 @@
+[app]
+title = Pixel Runner
+package.name = pixelrunner
+package.domain = com.jraymond.games
+source.dir = .
+source.include_exts = py,png,ttf,wav,ogg
+version = 1.0
+requirements = python3,pygame
+orientation = landscape
+fullscreen = 1
+android.archs = arm64-v8a
+icon.filename = %(source.dir)s/icon.png
+presplash.filename = %(source.dir)s/presplash.png
+
+[buildozer]
+log_level = 2
+warn_on_root = 1

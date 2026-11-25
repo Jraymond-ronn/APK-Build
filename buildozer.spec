@@ -12,7 +12,7 @@ android.archs = arm64-v8a
 android.ndk = 25b
 android.accept_sdk_license = True
 icon.filename = %(source.dir)s/icon.png
-presplash.filename = %(source.dir)s/presplash.png
+presplash.filename = %(source.dir)s/loading_screen.png
 
 [buildozer]
 log_level = 2

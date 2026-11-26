@@ -37,8 +37,8 @@ jobs:
       - name: Install Buildozer and Cython
         run: |
           pip install --upgrade pip
-          pip install buildozer "cython>=3.0.0" "setuptools<70"
-          printf "setuptools<70\ncython>=3.0.0\n" > /tmp/constraints.txt
+          pip install buildozer cython==3.0.11 "setuptools<70"
+          printf "setuptools<70\ncython==3.0.11\n" > /tmp/constraints.txt
 
       - name: Build Debug APK
         env:

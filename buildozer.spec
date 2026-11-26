@@ -5,7 +5,7 @@ package.domain = com.jraymond.games
 source.dir = .
 source.include_exts = py,png,ttf,wav,ogg
 version = 1.0
-requirements = python3==3.10.12,hostpython3==3.10.12,pygame,pyjnius==1.5.0
+requirements = python3==3.10.12,hostpython3==3.10.12,pygame,pyjnius==1.6.1
 p4a.branch = develop
 orientation = landscape
 fullscreen = 1

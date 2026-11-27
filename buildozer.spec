@@ -5,8 +5,9 @@ package.domain = com.jraymond.games
 source.dir = .
 source.include_exts = py,png,ttf,wav,ogg
 version = 1.0
-requirements = python3==3.10.12,hostpython3==3.10.12,pygame,pyjnius==1.6.1
+requirements = python3==3.10.12,hostpython3==3.10.12,pygame
 p4a.branch = develop
+p4a.bootstrap = sdl2
 orientation = landscape
 fullscreen = 1
 android.archs = arm64-v8a

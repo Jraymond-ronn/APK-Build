@@ -32,13 +32,13 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .buildozer
-          key: ${{ runner.os }}-buildozer-${{ hashFiles('buildozer.spec') }}
+          key: ${{ runner.os }}-buildozer-v2-${{ hashFiles('buildozer.spec') }}
 
       - name: Install Buildozer and Cython
         run: |
           pip install --upgrade pip
-          pip install buildozer cython==3.0.11 "setuptools<70"
-          printf "setuptools<70\ncython==3.0.11\n" > /tmp/constraints.txt
+          pip install buildozer cython==0.29.36 "setuptools<70"
+          printf "setuptools<70\ncython==0.29.36\n" > /tmp/constraints.txt
 
       - name: Build Debug APK
         env:

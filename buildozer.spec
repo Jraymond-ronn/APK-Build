@@ -5,7 +5,7 @@ package.domain = com.jraymond.games
 source.dir = .
 source.include_exts = py,png,ttf,wav,ogg
 source.exclude_dirs = .github,.buildozer,bin,.git,__pycache__
-source.exclude_patterns = private.tar,*.pyc
+source.exclude_patterns = *.pyc
 version = 1.0
 requirements = python3==3.10.12,hostpython3==3.10.12,pygame
 p4a.branch = develop
